@@ -219,7 +219,8 @@ export default function Home() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto text-center md:text-left text-xs sm:text-sm text-white/60">
-          © {new Date().getFullYear()} LearnMaths. All rights reserved.
+          © 2026 LearnMaths. All rights reserved.
+          Developed by Bilal Baloch
         </div>
       </footer>
     </div>
