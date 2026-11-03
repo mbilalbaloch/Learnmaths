@@ -414,7 +414,7 @@ export default function DashboardPage() {
         
         {/* Left Sidebar: Table of Contents & Saved References Drawer */}
         <aside className={`md:col-span-1 space-y-6 ${mobileMenuOpen ? 'block' : 'hidden md:block'}`}>
-          <div className="bg-white border border-stone-200/80 rounded-2xl p-5 shadow-sm sticky top-24 space-y-4">
+           <div className="bg-white border border-stone-200/80 rounded-2xl p-5 shadow-sm sticky top-24 space-y-4 w-[450px] max-w-full">
             
             {/* Sidebar Navigation Tabs */}
             <div className="grid grid-cols-2 bg-stone-100 p-1 rounded-xl text-xs font-semibold text-stone-600">
@@ -539,7 +539,7 @@ export default function DashboardPage() {
                 )}
               </div>
             )}
-          </div>
+          </div> 
         </aside>
 
         {/* Right Content Area: Author Studio or Book Reading Environment */}
