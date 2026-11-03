@@ -354,7 +354,7 @@ export default function DashboardPage() {
           <div className="w-7 h-7 rounded-lg bg-[#486851] flex items-center justify-center text-white text-xs font-serif italic font-bold">
             ∫
           </div>
-          <span className="text-sm font-semibold text-stone-600 font-serif">Loading Book Volume...</span>
+          <span className="text-sm font-semibold text-stone-600 font-serif">Loading...</span>
         </div>
       </div>
     );
